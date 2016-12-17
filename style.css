@@ -216,7 +216,7 @@ h1, h2, h3{
 }
 .menu li{
 	float: left;
-	border-bottom:0px;
+	border-bottom:0;
 }
 .menu li a{
 	padding:0.5em 0.7em 0.5em 0.7em ;
@@ -292,16 +292,13 @@ font-size:1.4em;
 	padding:0;
 }
 #flickr img {
-	border:0px;
+	border:0;
 }
 #flickr a {
 	background:#1F1F1F;
 	float: left;
 	display: inline;
-	margin:2em;
 	padding:5px;
-	width: 75px;
-	height: 75px;
 }
 #flickr a:hover{
 	background:#dc2f2f;

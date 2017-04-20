@@ -1,4 +1,4 @@
 # Mate
-[![Code Climate](https://codeclimate.com/github/0unit/BlackWaterRedMilk/badges/gpa.svg)](https://codeclimate.com/github/0unit/BlackWaterRedMilk) [![Issue Count](https://codeclimate.com/github/0unit/BlackWaterRedMilk/badges/issue_count.svg)](https://codeclimate.com/github/0unit/BlackWaterRedMilk)
+[![Code Climate](https://codeclimate.com/github/praiasfloripa/Mate/badges/gpa.svg)](https://codeclimate.com/github/praiasfloripa/Mate) [![Issue Count](https://codeclimate.com/github/praiasfloripa/Mate/badges/issue_count.svg)](https://codeclimate.com/github/praiasfloripa/Mate)
 
-Another Wordpress Theme - Wait
+Proto  Wordpress Theme Materialize - Wait

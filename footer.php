@@ -1,18 +1,45 @@
-
-<div id="footer">
-</div>
-<div id="control">
-  <?php bloginfo('name'); ?> est&aacute; usando <a href="">Blackwater Redmilk theme</a> design de <a href="">Jeison Cardoso</a>. Powered by <a href="http://wordpress.org/">WordPress</a>.
-<!-- <?php echo get_num_queries(); ?> queries. <?php timer_stop(1); ?> seconds. -->
-<?php wp_footer(); ?>
-</div>
-<div id="validate">
-   	<span id="rss"><a href="<?php bloginfo('rss2_url'); ?>" title="<?php _e('Syndicate this site using RSS'); ?>"><?php _e('<abbr title="Really Simple Syndication">RSS</abbr>'); ?></a></span> | 
-    <a href="http://validator.w3.org/check/referer" title="<?php _e('This page validates as XHTML 1.0 Transitional'); ?>"><?php _e('<abbr title="eXtensible HyperText Markup Language">XHTML</abbr>'); ?></a> | 
-    <a href="http://jigsaw.w3.org/css-validator/check/referer" title="<?php _e('This page has valid CSS'); ?>"><?php _e('<abbr title="Cascading Style Sheets">CSS</abbr>'); ?></a>
-</div>
-</div>
- <!-- end of #wrap -->
-
+<footer class="page-footer teal">
+  <div class="container">
+    <div class="row">
+      <?php dynamic_sidebar( 'sidebar-footer-1' ); ?>
+      <div class="col l6 s12">
+        <h5 class="white-text">Company Bio</h5>
+        <p class="grey-text text-lighten-4">We are a team o appreciated.</p>
+      </div>
+      <?php dynamic_sidebar( 'sidebar-footer-2' ); ?>
+      <div class="col l3 s12">
+        <h5 class="white-text">Settings</h5>
+        <ul>
+          <li><a class="white-text" href="#!">Link 1</a></li>
+          <li><a class="white-text" href="#!">Link 2</a></li>
+          <li><a class="white-text" href="#!">Link 3</a></li>
+          <li><a class="white-text" href="#!">Link 4</a></li>
+        </ul>
+      </div>
+      <?php dynamic_sidebar( 'sidebar-footer-2' ); ?>
+      <div class="col l3 s12">
+        <h5 class="white-text">Connect</h5>
+        <ul>
+          <li><a class="white-text" href="#!">Link 1</a></li>
+          <li><a class="white-text" href="#!">Link 2</a></li>
+          <li><a class="white-text" href="#!">Link 3</a></li>
+          <li><a class="white-text" href="#!">Link 4</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="footer-copyright">
+    <div class="container">
+      Powered by <a class="brown-text text-lighten-3"
+        href="http://aindanao.com.cz">Tekoa</a>
+    <?php wp_footer(); ?>
+    </div>
+  </div>
+</footer>
+<!--  Scripts -->
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="<?php bloginfo('template_directory'); ?>/js/navigation.js"></script>
+<script src="<?php bloginfo('template_directory'); ?>/js/materialize.js"></script>
+<script src="<?php bloginfo('template_directory'); ?>/js/init.js"></script>
 </body>
 </html>

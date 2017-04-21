@@ -1,0 +1,7 @@
+exclude_paths:
+- "js/init.js"
+- "js/materialize.js"
+- "js/materialize.min.js"
+- "css/materialize.css"
+- "css/materialize.min.css"
+- "fonts/*"
